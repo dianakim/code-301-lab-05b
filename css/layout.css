@@ -23,13 +23,18 @@ footer {
     line-height: 100px;
     background: red;
   }
-  
+
+  div {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+  }
+
   main {
-    width: 79.17%;
+    min-width: 100%;
   }  
 
   footer {
-    width: 79.17%;
     line-height: 150px;
     background: orange;
   }
