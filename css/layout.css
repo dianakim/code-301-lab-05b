@@ -1,10 +1,12 @@
 
-header {
-  line-height: 75px;
+header, footer {
+  background-color: lightgrey;
+  border: 0.25px solid black;
+  box-sizing: border-box;
 }
 
-footer {
-  line-height: 80px;
+header {
+  line-height: 75px;
 }
 
 main {
@@ -12,9 +14,14 @@ main {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+footer {
+  line-height: 80px;
+}
+
+@media (min-width: 500px) {
   header {
     line-height: 100px;
+    background: red;
   }
   
   main {
@@ -24,6 +31,7 @@ main {
   footer {
     width: 79.17%;
     line-height: 150px;
+    background: orange;
   }
   
 }
