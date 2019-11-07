@@ -1,0 +1,44 @@
+header, aside, article, footer {
+  background-color: lightgrey;
+  border: 0.25px solid black;
+  box-sizing: border-box;
+}
+
+.full-width {
+  
+}
+
+.half-width {
+  width: 50%;
+}
+
+aside {
+  line-height: 150px;
+}
+
+.sub-header {
+  line-height: 125px;
+}
+
+.sub-footer {
+  display: flex;
+  flex-direction: row;
+  line-height: 250px;
+}
+
+@media (min-width: 768px) {
+  aside {
+    max-width: 20.83%;
+    line-height: 600px;
+  }
+
+  .sub-header {
+    width: 50%;
+    line-height: 200px;
+  }
+  
+  .sub-footer {
+    width: 50%;
+    line-height: 250px;
+  }
+
