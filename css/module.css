@@ -68,5 +68,33 @@ aside {
     line-height: 250px; 
   }
 
-   
+@media (min-width: 800px) {
+  aside {
+    background: pink;
+    
+  }
 
+  main > article:first-child {
+    background: blue;
+  }
+
+  main > article:nth-child(2) {
+    background: teal;
+  }
+
+  section.left article.half-width:first-child {
+    background: white;
+  }
+
+  section.left article.half-width:nth-child(2) {
+    background: chartreuse;
+  }
+
+  section.right article.half-width:first-child {
+    background: lightblue;
+  }
+
+  section.right article.half-width:nth-child(2) {
+    background: tan;
+  }
+}
